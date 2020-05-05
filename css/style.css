@@ -1,0 +1,80 @@
+/*
+~General
+~Top Bar
+~Introduction
+~About Me
+*/
+
+/* GENERAL
+==========================================================================================*/
+body{
+  margin:auto;
+}
+
+.h-50{
+  height:50px;
+}
+
+/*TOP BAR
+==========================================================================================*/
+.navbar{
+  height: 60px;
+  opacity: 0.9;
+}
+
+/* INTRODUCTION
+==========================================================================================*/
+.leftside, .rightside {
+  height: 50vh;
+  width: 100%; 
+}
+
+@media screen and (min-width: 768px){
+.leftside, .rightside{
+  height:100vh;
+}
+}
+
+@media screen and (min-width: 768px){
+.img{
+  height:auto;
+  width:auto;
+}
+}
+
+.leftside {
+  background: white;
+}
+
+.rightside {
+  background:#c8cdcf;
+}
+
+/*ABOUT ME
+==========================================================================================*/
+
+#sec1{
+  padding:50px;
+}
+
+#sec2{
+  padding:50px;
+}
+
+.column{
+  float:left;
+  width:50%;
+  height:500px;
+}
+
+.row:after{
+  content:"";
+  display: table;
+  clear:both;
+}
+
+@media screen and (max-width: 600px){
+  .column{
+    width:100%;
+  }
+}
