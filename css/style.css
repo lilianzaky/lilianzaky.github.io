@@ -70,14 +70,19 @@ a:hover {
   height: 500px;
 }*/
 .parallax {
-  padding:100px 35px;
-  min-height: 500px;
+  height: 100px;
   background: transparent;
   background-size: cover;
   background-attachment: fixed;
   margin: 0 auto;
   padding: 15px;
 }
+
+@media screen and (min-width: 768px){
+  .parallax{
+    height:100vh;
+  }
+  }
 
 .info{
   z-index:2;
