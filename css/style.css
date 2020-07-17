@@ -56,11 +56,40 @@ nav li a {
 }
 
 a:hover {
-  color: #425BB5;
+  color: #ffd6d6;
   text-decoration: none;
 }
 
-/*MOVING PIC
+/* INTRODUCTION PRACTICE
+==========================================================================================*/
+
+.parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.info{
+  color: white;
+  font-size: 20px;
+  padding: 203px;
+}
+
+.software{
+  color:#ffd6d6;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 25px;
+}
+
+.detail{
+  font-family:Roboto;
+}
+
+
+/* INTRODUCTION
 ==========================================================================================*/
 
 /* .parallax{
@@ -68,7 +97,8 @@ a:hover {
   background-size: cover;
   background-attachment: fixed;
   height: 500px;
-}*/
+}
+
 .parallax {
   height: 100px;
   background: transparent;
@@ -78,7 +108,7 @@ a:hover {
   padding: 15px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 786px){
   .parallax{
     height:100vh;
   }
@@ -92,36 +122,7 @@ a:hover {
   font-size: 24px;
   padding-top: 100px;
   line-height: 50px;
-}
-
-
-/* INTRODUCTION
-==========================================================================================*/
-.leftside, .rightside {
-  height: 50vh;
-  width: 100%; 
-}
-
-@media screen and (min-width: 768px){
-.leftside, .rightside{
-  height:100vh;
-}
-}
-
-@media screen and (min-width: 768px){
-.img{
-  height:auto;
-  width:auto;
-}
-}
-
-.leftside {
-  background: white;
-}
-
-.rightside {
-  background:#c8cdcf;
-}
+}*/
 
 /*ABOUT ME
 ==========================================================================================*/
