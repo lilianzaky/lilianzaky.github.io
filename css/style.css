@@ -2,7 +2,9 @@
 ~General
 ~Top Bar
 ~Cover
-~About Me
+~About
+~Experience
+~Skills
 */
 
 /* GENERAL
@@ -89,13 +91,51 @@ nav li {
   font-family: roboto;
 }
 
-h2{
+.aboutMe{
   text-transform: uppercase; 
   letter-spacing: 7px; 
   color:#425a69;
 }
 
-hr{
+.hr1{
   height: 2px;
   border-top: 1px solid #425a69;
+}
+
+
+/* EXPERIENCE
+==========================================================================================*/
+
+.text{
+  color:white;
+  text-align:center;
+  margin-bottom:120px;
+  margin-top:120px;
+}
+
+.experience{
+  color:#ffd6d6;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 25px;
+}
+
+.myExperience{
+  background-color: #ffd6d6;
+  opacity: 0.5;
+  color: black;
+}
+
+.hr2{
+  height: 2px;
+  border-top: 1px solid white;
+}
+
+/* SKILLS
+==========================================================================================*/
+
+.skills{
+  text-transform: uppercase; 
+  letter-spacing: 7px; 
+  color:#425a69;
 }
