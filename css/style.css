@@ -56,7 +56,8 @@ nav li {
   font-size: 20px;
   position:absolute;
   left:250px;
-  bottom:250px;
+  bottom:150px;
+  text-align:center;
 }
 
 .software{
@@ -68,6 +69,11 @@ nav li {
 
 .detail{
   font-family:Roboto;
+  font-size:19px;
+}
+
+.quote{
+  font-size: 13px;
 }
 
 /* ABOUT
@@ -87,7 +93,7 @@ nav li {
 
 .aboutInfo{
   text-align:center;
-  line-height: 30px;
+  line-height: 25px;
   font-family: roboto;
 }
 
@@ -100,6 +106,13 @@ nav li {
 .hr1{
   height: 2px;
   border-top: 1px solid #425a69;
+}
+
+.interests{
+  text-transform: uppercase; 
+  letter-spacing: 5px; 
+  color:#425a69;
+  font-size:18px;
 }
 
 
@@ -120,10 +133,17 @@ nav li {
   font-size: 25px;
 }
 
-.myExperience{
-  background-color: #ffd6d6;
-  opacity: 0.5;
-  color: black;
+.developer{
+  
+  color: white;
+}
+.gac{
+  
+  color: white;
+}
+.assistant{
+  
+  color: white;
 }
 
 .hr2{
@@ -134,8 +154,19 @@ nav li {
 /* SKILLS
 ==========================================================================================*/
 
+.skillsInfo{
+  text-align: center;
+  line-height: 25px;
+  font-family: roboto;
+}
 .skills{
   text-transform: uppercase; 
   letter-spacing: 7px; 
   color:#425a69;
+}
+.skillsInfo ul {
+  list-style:inside;
+  padding-left:0;
+  columns: 2;
+  -webkit-columns: 2;
 }
