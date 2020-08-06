@@ -5,6 +5,7 @@
 ~About
 ~Experience
 ~Skills
+~Contact
 */
 
 /* GENERAL
@@ -155,18 +156,85 @@ nav li {
 ==========================================================================================*/
 
 .skillsInfo{
-  text-align: center;
   line-height: 25px;
   font-family: roboto;
 }
+
 .skills{
+  text-align:center;
   text-transform: uppercase; 
   letter-spacing: 7px; 
   color:#425a69;
 }
+
 .skillsInfo ul {
-  list-style:inside;
-  padding-left:0;
   columns: 2;
   -webkit-columns: 2;
 }
+
+.lang{
+  text-transform: uppercase; 
+  letter-spacing: 3px; 
+  color:#425a69;
+  font-size:14px;
+}
+
+.soft{
+  text-transform: uppercase; 
+  letter-spacing: 3px; 
+  color:#425a69;
+  font-size:14px;
+}
+
+.other{
+  text-transform: uppercase; 
+  letter-spacing: 3px; 
+  color:#425a69;
+  font-size:14px;
+}
+
+/* CONTACT
+==========================================================================================*/
+
+.contactMe{
+  background-image: url(/img/aboutme.png)
+}
+.contact{
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+  text-align:center;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding:30px;
+}
+
+footer{
+	position: fixed;
+  bottom: 0;
+}
+  
+@media (max-height:800px){
+    footer { position: static; }
+  }
+  
+  .footer-distributed{
+    background-color: #2c292f;
+    width: 100%;
+    padding: 50px 50px 60px 50px;
+    text-align:center;
+    color:white;
+    margin:auto;
+  }
+
+  .footer-center p{
+  text-transform: uppercase; 
+  letter-spacing: 3px; 
+  font-size:30px;
+  }
+
+  .hr3{
+    height: 2px;
+    width: 50%;
+    border-top: 1px solid white;
+  }
