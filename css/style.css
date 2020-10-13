@@ -57,7 +57,7 @@ nav li {
   font-size: 20px;
   position:absolute;
   left:250px;
-  bottom:150px;
+  bottom:296px;
   text-align:center;
 }
 
@@ -213,27 +213,17 @@ color:#ffd6d6;
   text-align: center;
   text-transform: uppercase; 
   letter-spacing: 5px; 
-  color:white;
-  font-size:18px;
+  font-size:20px;
+  color:#ffd6d6;
 }
+
 
 
 
 /* CONTACT
 ==========================================================================================*/
 
-.contactMe{
-  background-image: url(/img/aboutme.png)
-}
-.contact{
-  margin-left: auto;
-  margin-right: auto;
-  width: 8em;
-  text-align:center;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding:30px;
-}
+
 
 footer{
 	position: fixed;
@@ -254,13 +244,15 @@ footer{
   }
 
   .footer-center p{
-  text-transform: uppercase; 
-  letter-spacing: 3px; 
-  font-size:30px;
+    text-align:center;
+    text-transform: uppercase; 
+    letter-spacing: 7px; 
+    color:#425a69;
+    font-size: 32px;
   }
 
   .hr3{
     height: 2px;
-    width: 50%;
+    width: 40%;
     border-top: 1px solid black;
   }
