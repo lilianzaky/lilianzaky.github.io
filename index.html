@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <link href="css/animate.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 
   <link href='https://fonts.googleapis.com/css?family=Arima Madurai' rel='stylesheet'>
@@ -33,26 +34,28 @@
   <!-- ./Top Bar -->
 
 
-  <!-- Cover -->
-  <div class="parallax" data-parallax="scroll" data-image-src="/img/grad.jpeg" data-over-scroll-fix="true">
-    <div class="title">
-      <p>
-        <span class="software">Software engineer</span> <br>
-        <span class="detail">motivated. organized. positive. hardworking.</span><br>
-      <div class="social">
-        <a href="https://www.linkedin.com/in/lilian-zaky-998b88140">
-          <span class="iconify" data-icon="ant-design:linkedin-filled" data-inline="false"
-            style="width:20px;height:20px;"></span>
-        </a>
-        <a href="https://www.facebook.com/lilian.zaky">
-          <span class="iconify" data-icon="ion-social-facebook" data-inline="false"
-            style="width:20px;height:20px;"></span>
-        </a>
+  <div class="section" id="home" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="disply-table" data-aos="fade-up" data-aos-delay="0">
+        <div class="table-cell">
+          <span class="software">Software engineer</span> <br>
+          <span class="detail">motivated. organized. positive. hardworking.</span><br>
+          <br>
+          <div class="social">
+            <a href="https://www.linkedin.com/in/lilian-zaky-998b88140">
+              <span class="iconify" data-icon="ant-design:linkedin-filled" data-inline="false"
+                style="width:20px;height:20px;"></span>
+            </a>
+            <a href="https://www.facebook.com/lilian.zaky">
+              <span class="iconify" data-icon="ion-social-facebook" data-inline="false"
+                style="width:20px;height:20px;"></span>
+            </a>
+          </div>
+
+        </div>
       </div>
-      </p>
     </div>
   </div>
-  <!-- Cover -->
 
 
   <!-- About -->
@@ -191,7 +194,8 @@
       </div>
       <br>
       <h1 class="projectTitle">Slots App (IOS app)</h1>
-      <p style="color:white; text-align:center; font-family:Roboto;">I always wanted to learn IOS dev, so this was the first app I developed
+      <p style="color:white; text-align:center; font-family:Roboto;">I always wanted to learn IOS dev, so this was the
+        first app I developed
         during my free time.</p>
       <div data-aos="fade-up" class="row justify-content-md-center">
         <div class="row">
@@ -208,7 +212,8 @@
       </div>
       <br>
       <h1 class="projectTitle">Trivia Game (Game dev)</h1>
-      <p style="color:white; text-align:center; font-family:Roboto;">My very first unity game was during my third year of university. Since
+      <p style="color:white; text-align:center; font-family:Roboto;">My very first unity game was during my third year
+        of university. Since
         then I always wanted to build another game, so this was the game I developed during my free time.</p>
       <div data-aos="fade-up" class="row justify-content-md-center">
         <div class="row">
@@ -252,9 +257,21 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.form.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script>
+    $.stellar();
+  </script>
+
+
   <script src="/js/parallax.min.js"></script>
   <script src="js/aos.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/plugins.js"></script>
   <script>
     AOS.init({
       offset: 200,
