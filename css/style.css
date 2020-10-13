@@ -154,11 +154,18 @@ nav li {
 /* EXPERIENCE
 ==========================================================================================*/
 
+
+#exp {
+  background: url(/img/laptop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
 .text{
   color:white;
   text-align:center;
-  margin-bottom:120px;
-  margin-top:120px;
+  
 }
 
 .experience{
@@ -227,7 +234,7 @@ nav li {
   font-size:14px;
 }
 
-/* CONTACT
+/* PROJECTS
 ==========================================================================================*/
 
 .myprojects{
@@ -235,10 +242,10 @@ nav li {
 }
 
 .projects{
-text-align: center;
-text-transform: uppercase; 
-letter-spacing: 7px; 
-color:#ffd6d6;
+  text-align: center;
+  text-transform: uppercase; 
+  letter-spacing: 7px; 
+  color:#ffd6d6;
 }
 
 .projectTitle{
@@ -248,8 +255,6 @@ color:#ffd6d6;
   font-size:20px;
   color:#ffd6d6;
 }
-
-
 
 
 /* CONTACT
