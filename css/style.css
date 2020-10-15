@@ -1,6 +1,6 @@
 /*
 ~General
-~Top Bar
+~Nav Bar
 ~Cover
 ~About
 ~Experience
@@ -18,7 +18,7 @@ body{
   margin:auto;
 }
 
-/* TOP BAR
+/* NAV BAR
 ==========================================================================================*/
 header {
   text-align: center;
@@ -45,18 +45,10 @@ nav li {
 /* COVER
 ==========================================================================================*/
 
-
-
 #home {
   background: url(/img/grad.jpeg);
   background-size: cover;
   height: 100vh;
-}
-
-.table-cell {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
 }
 
 .disply-table {
@@ -64,32 +56,10 @@ nav li {
   height: 100vh;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.parallax{
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
-}
-
-.title{
-  color: white;
-  font-size: 20px;
-  position:absolute;
-  left:250px;
-  bottom:296px;
-  text-align:center;
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .software{
@@ -106,10 +76,6 @@ nav li {
   font-size: 15px;
 }
 
-.quote{
-  font-family: Arima Madurai;
-  font-size: 13px;
-}
 
 /* ABOUT
 ==========================================================================================*/
@@ -154,18 +120,10 @@ nav li {
 /* EXPERIENCE
 ==========================================================================================*/
 
-
 #exp {
-  background: url(/img/laptop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 90vh;
-}
-
-.text{
-  color:white;
-  text-align:center;
-  
 }
 
 .experience{
@@ -175,21 +133,8 @@ nav li {
   font-size: 25px;
 }
 
-.developer{
-  
-  color: white;
-}
-.gac{
-  
-  color: white;
-}
-.assistant{
-  
-  color: white;
-}
-
 .hr2{
-  height: 2px;
+  height: 4px;
   border-top: 1px solid white;
 }
 
