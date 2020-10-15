@@ -122,6 +122,7 @@ nav li {
 ==========================================================================================*/
 
 #exp {
+  background: url(/img/laptop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 90vh;
