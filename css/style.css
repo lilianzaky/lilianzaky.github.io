@@ -5,6 +5,7 @@
 ~About
 ~Experience
 ~Skills
+~Projects
 ~Contact
 */
 
@@ -201,21 +202,9 @@ nav li {
   color:#ffd6d6;
 }
 
-
 /* CONTACT
 ==========================================================================================*/
 
-
-
-footer{
-	position: fixed;
-  bottom: 0;
-}
-  
-@media (max-height:800px){
-    footer { position: static; }
-  }
-  
   .footer-distributed{
     background-color:white;
     width: 100%;
