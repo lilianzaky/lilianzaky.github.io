@@ -15,9 +15,10 @@
   box-sizing: border-box;
 }
 
-body{
+html, body{
   margin:auto;
   overflow-x:hidden;
+  padding:0;
 }
 
 /* NAV BAR
